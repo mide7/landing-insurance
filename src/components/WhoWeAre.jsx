@@ -20,7 +20,7 @@ function WhoWeAre() {
           </p>
         </div>
       </div>
-      <div className="flex flex-wrap sm:justify-center md:justify-between gap-6">
+      <div className="flex flex-wrap justify-center md:justify-between lg:justify-around gap-6">
         <AboutCards imgsrc={statsSvg} title="business insurance" />
         <AboutCards imgsrc={personalSvg} title="personal insurance" />
         <AboutCards imgsrc={privateSvg} title="private client services" />

@@ -3,7 +3,7 @@ import Button from "../utils/Button";
 
 function Landing() {
   return (
-    <section className="landing flex flex-col justify-center text-white">
+    <section className="landing flex flex-col justify-center text-white px-2">
       <manin className="container mx-auto">
         <div className="capitalize mb-5">
           <h1 className="text-5xl font-semibold">

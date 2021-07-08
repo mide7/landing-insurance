@@ -14,9 +14,9 @@ import React from "react";
 function Footer() {
   return (
     <footer className=" bg-blue-primary text-white">
-      <div className="container mx-auto flex justify-between mt-12 py-16">
+      <div className="container mx-auto flex flex-col md:flex-row gap-8 md:gap-4 justify-between mt-12 py-16 px-2">
         <div className="flex flex-col gap-4">
-          <h1 className="font-semibold text-xl mb-3">Contact Us</h1>
+          <h1 className="font-semibold text-xl ">Contact Us</h1>
           <div>
             <FontAwesomeIcon icon={faPhoneAlt} className="text-xl" />
             <span> +2345678909</span>
@@ -31,7 +31,7 @@ function Footer() {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <h1 className="font-semibold text-xl mb-3">Sitemap</h1>
+          <h1 className="font-semibold text-xl">Sitemap</h1>
           <a href="#.">
             <span className="capitalize">home</span>
           </a>
@@ -56,7 +56,7 @@ function Footer() {
         </div>
         <div className="flex flex-col gap-2">
           <h1 className="font-semibold text-xl">Stay Connected</h1>
-          <div className="flex justify-between font-semibold">
+          <div className="flex justify-between font-semibold max-w-2.25/5 md:max-w-full">
             <a href="#." className="hover:text-gray-300">
               <FontAwesomeIcon icon={faFacebookF} />
             </a>

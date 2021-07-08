@@ -22,7 +22,7 @@ function WhyChooseUs() {
 
         <div className="flex flex-wrap justify-between gap-4">
           <figure className="flex flex-col sm:max-w-full md:max-w-2.25/5">
-            <div className="flex justify-start h-1/2">
+            <div className="flex justify-start h-1/2 px-1 md:px-0">
               <img src={missionImg} alt={""} className="object-cover w-full" />
             </div>
             <figcaption className="flex flex-col gap-8 bg-white font-semibold py-8 px-4 max-h-1/2">
@@ -37,7 +37,7 @@ function WhyChooseUs() {
             </figcaption>
           </figure>
           <figure className="flex flex-col sm:max-w-full md:max-w-2.25/5">
-            <div className="flex justify-start h-1/2">
+            <div className="flex justify-start h-1/2 px-1 bg-white md:px-0">
               <img src={visionImg} alt={""} className="object-cover w-full" />
             </div>
             <figcaption className="flex flex-col gap-8 bg-white font-semibold py-8 px-4 max-h-1/2">
@@ -53,22 +53,22 @@ function WhyChooseUs() {
           </figure>
         </div>
 
-        <div className="flex flex-wrap justify-center sm:-mt-64 md:-mt-80 gap-4 pb-16">
-          <div className="flex flex-col text-center text-white font-semibold w-full sm:border-b-2 md:border-r-2 md:border-b-0  md:max-w-1/5">
+        <div className="flex flex-wrap justify-center -mt-36 sm:-mt-64 md:-mt-48 lg:-mt-64 gap-4 pb-16">
+          <div className="flex flex-col text-center text-white font-semibold w-full border-b-2 md:border-r-2 md:border-b-0  md:max-w-1/5">
             <span className="text-4xl">1567</span>
-            <span className="text-md">SatisFied Clients</span>
+            <span className="text-md mb-1">SatisFied Clients</span>
           </div>
-          <div className="flex flex-col text-center text-white font-semibold w-full sm:border-b-2 md:border-r-2 md:border-b-0  md:max-w-1/5">
+          <div className="flex flex-col text-center text-white font-semibold w-full border-b-2 md:border-r-2 md:border-b-0  md:max-w-1/5">
             <span className="text-4xl">10+</span>
-            <span className="text-md">Years of Experience</span>
+            <span className="text-md mb-1">Years of Experience</span>
           </div>
-          <div className="flex flex-col text-center text-white font-semibold w-full sm:border-b-2 md:border-r-2 md:border-b-0 md:max-w-1/5">
+          <div className="flex flex-col text-center text-white font-semibold w-full border-b-2 md:border-r-2 md:border-b-0 md:max-w-1/5">
             <span className="text-4xl">8</span>
-            <span className="text-md">Professional Agents</span>
+            <span className="text-md mb-1">Professional Agents</span>
           </div>
-          <div className="flex flex-col text-center text-white font-semibold w-full sm:border-b-2 md:border-r-2 md:border-b-0 md:max-w-1/5">
+          <div className="flex flex-col text-center text-white font-semibold w-full border-b-2 md:border-r-2 md:border-b-0 md:max-w-1/5">
             <span className="text-4xl">100%</span>
-            <span className="text-md">Insurance Approval</span>
+            <span className="text-md mb-1">Insurance Approval</span>
           </div>
         </div>
       </main>

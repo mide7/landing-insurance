@@ -12,7 +12,7 @@ function Testimonials() {
             testimonials
           </h2>
 
-          <img src={Quotes} alt="" className="absolute transform rotate-180 lg:left-20 lg:top-16  lg:w-16  w-12" />
+          <img src={Quotes} alt="" className="absolute transform rotate-180   w-7 md:w-12 lg:w-16   left-1 xs:left-8 lg:left-16   top-20 lg:top-16    " />
           <figure className="bg-white max-w-3/4 flex flex-col gap-8 pt-12 px-12 mb-12 shadow-lg">
             <div>
               It is a long established fact that a reader will be distracted by
@@ -47,7 +47,7 @@ function Testimonials() {
               />
             </div>
           </figure>
-          <img src={Quotes} alt="" className="absolute right-20 bottom-4 w-16" />
+          <img src={Quotes} alt="" className="absolute w-7 md:w-12 lg:w-16   right-1 xs:right-8 lg:right-16   bottom-8 lg:bottom-4    " />
         </div>
       </div>
     </main>

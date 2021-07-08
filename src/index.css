@@ -31,17 +31,6 @@ section {
   background-color: rgba(255, 255, 255, 0.8);
 }
 
-.what-sets-us-apart {
-  background: linear-gradient(4deg, white 25%, #4e4bdf 25%);
-}
-.scott-img {
-  position: absolute;
-  height: 400px;
-  width: 600px;
-  /* left: 93px; */
-  top: -40px;
-  border-radius: 0px;
-}
 .why-choose-bg {
   background-image: linear-gradient(
     to bottom,
@@ -52,4 +41,24 @@ section {
   );
   background-size: cover;
   background-repeat: no-repeat;
+}
+
+.what-sets-us-apart {
+  background: linear-gradient(4deg, #4e4bdf 25%, #4e4bdf 25%);
+}
+
+@media screen and (min-width: 768px) {
+  .what-sets-us-apart {
+    background: linear-gradient(4deg, white 25%, #4e4bdf 25%);
+  }
+  .scott-img {
+    position: absolute;
+    height: 400px;
+    /* object-fit: contain; */
+    /* width: 300px; */
+    /* display: none; */
+    /* left: 93px; */
+    top: -40px;
+    border-radius: 0px;
+  }
 }
