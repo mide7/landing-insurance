@@ -27,7 +27,10 @@ section {
 .testimonial-bg {
   background: url("./img/testimonial.jpg");
   background-size: contain;
+  background-blend-mode: lighten;
+  background-color: rgba(255, 255, 255, 0.8);
 }
+
 .what-sets-us-apart {
   background: linear-gradient(4deg, white 25%, #4e4bdf 25%);
 }
