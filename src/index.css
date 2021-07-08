@@ -1,13 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+section {
+  min-height: 90vh;
+}
+
+.landing {
+  background: url("./img/landing.jpg");
+  background-size: cover;
+}
+.testimonial-bg {
+  background: url("./img/testimonial.jpg");
+  background-size: contain;
+}
+.what-sets-us-apart {
+  background: linear-gradient(4deg, white 25%, #4e4bdf 25%);
+}
+.scott-img {
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  /* left: 93px; */
+  top: -40px;
+  border-radius: 0px;
+}
+.why-choose-bg {
+  background-image: linear-gradient(
+    to bottom,
+    white,
+    white 50%,
+    #4e4bdf 50%,
+    #4e4bdf
+  );
+  background-size: cover;
+  background-repeat: no-repeat;
 }
